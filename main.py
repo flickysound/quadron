@@ -107,7 +107,7 @@ else:
 
 @client.event
 async def on_ready():
-  print('We have inloggen in as {0.user}'.format(client))
+  print('logged in as {0.user}'.format(client))
 
   # Provide the voice channel ID to update
   channel_id = 930838385000603748
